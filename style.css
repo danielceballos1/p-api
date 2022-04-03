@@ -1,0 +1,40 @@
+#pokemon-names-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .pokemon-name {
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+  }
+  
+  button {
+    background-color: #00bfff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  #page-number {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
+
+ 
